@@ -1,0 +1,27 @@
+{
+  "name": "botifyhost",
+  "version": "1.0.0",
+  "description": "<h1 align=\"center\">  🦅Crow Bot⚙ </h1>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "botifyhost",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/voice": "^0.11.0",
+    "canvas": "^2.11.2",
+    "customizable-discordjs-pagination": "^2.1.1",
+    "discord-banners-js": "^1.0.3",
+    "discord.js": "^13.17.1",
+    "discord.js-captcha": "^3.0.5",
+    "dotenv": "^16.3.1",
+    "fs": "^0.0.1-security",
+    "ms": "^2.1.3",
+    "node-fetch": "^2.7.0",
+    "quick.db": "^7.1.3",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {},
+  "keywords": []
+}
