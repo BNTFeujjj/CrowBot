@@ -41,14 +41,12 @@ let moderation = new Discord.MessageEmbed()
 \`${prefix}mute\` ➔ Permet de rendre temporairement muet un utilisateur
 \`${prefix}prune\` ➔ Permet de supprimer un nombre de messages d'un utilisateur
 \`${prefix}renew \` ➔ Permet de dupliquer un salon et de supprimez l'ancien !
-\`${prefix}sanction\` ➔ Permet de connaître toutes les infractions d'un utilisateur
 \`${prefix}snipe\` ➔ Permet de connaître le dernier message supprimé du salon
 \`${prefix}tempban\` ➔ Permet de bannir temporairement un utilisateur
 \`${prefix}unban\` ➔ Permet de débannir un utilisateur
 \`${prefix}gunban\` ➔ Permet de blacklister un utilisateur
 \`${prefix}unlock\` ➔ Permet de unlocker un salon
 \`${prefix}unmute\` ➔ Permet de rendrela parole d'un utilisateur
-\`${prefix}warn\` ➔ Permet d'avertir un utilisateur`)
 .setColor("FF0000")
 .setFooter({text: " "})
 
