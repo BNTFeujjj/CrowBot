@@ -47,7 +47,7 @@ let moderation = new Discord.MessageEmbed()
 \`${prefix}unban\` ➔ Permet de débannir un utilisateur
 \`${prefix}gunban\` ➔ Permet de blacklister un utilisateur
 \`${prefix}unlock\` ➔ Permet de unlocker un salon
-\`${prefix}unmute\` ➔ Permet de rendrela parole d'un utilisateur`)
+\`${prefix}unmute\` ➔ Permet de rendre la parole d'un utilisateur`)
 .setColor("FF0000")
 .setFooter({text: " "})
 
