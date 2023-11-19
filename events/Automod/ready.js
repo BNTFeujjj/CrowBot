@@ -7,7 +7,7 @@ if (!status) return;
         const randomIndex = Math.floor(Math.random() * (status.length - 1) + 1);
         const newActivity = status[randomIndex];
 
-        client.user.setActivity(newActivity, { type: "STREAMING", url: "https://www.twitch.tv/amouranth" })
+        client.user.setActivity(newActivity, { type: "STREAMING", url: "https://www.twitch.tv/nxthael_04" })
     }, 4000);
 
 }
