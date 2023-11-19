@@ -19,7 +19,7 @@ const loadEvents = (dir = "./events/") => {
       const evt = require(`${dir}/${dirs}/${event}`);
       const evtName = event.split(".")[0];
       client.on(evtName, evt.bind(null, client));
-      console.log(`> event charger ${evtName}`)
+      console.log(`✅ > [EVENT] ${evtName}`)
     };
   });
 };
@@ -31,7 +31,7 @@ for (const file of commandFiles) {
   const commands = require(`./commands/${file}`)
   client.commands.set(commands.name, commands)
 
-  console.log(`> commande charger ${commands.name}`)
+  console.log(`✅ > [COMMANDE] ${commands.name}`)
 }
 
 
